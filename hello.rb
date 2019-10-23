@@ -1,1 +1,8 @@
 puts "Hello world."
+puts "How many hours do I have to put in to become an expert at this?"
+puts "There are so man goals I have put in place for myself, starting with"
+puts "A car"
+puts "Financially stable"
+puts "Owning rental property"
+puts "Tech StartUp"
+puts "In excellent health mentally and physically"

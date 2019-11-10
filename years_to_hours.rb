@@ -5,6 +5,8 @@ hours = years * 365 * 24
 hours = hours.to_s # this converts the result to a string to print
 puts "That's #{hours} hours."
 
+puts "Whew"
+
 # write your code here for the other parts.
 
 

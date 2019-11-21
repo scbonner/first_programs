@@ -16,8 +16,12 @@ elsif
           else
         end 
     end
-    puts "leap years between #{beginning_year.to_s} and #{ending_year.to_s} #{leap_years.join(", ").to_s}"
+    puts "leap years between #{beginning_year.to_a} and #{ending_year.to_a} #{leap_years.join(", ").to_a}"
 end
+
+# changed .to_s to .to_a to see what the outcome would look like
+
+
         
             
             

@@ -1,6 +1,4 @@
-puts 1 + 2
-puts 8 * 24
-
-x = 2 + 7 * 12 - 2
+x = "Today is the day"
+y = "Frank's birthday happens to be today"
 
 

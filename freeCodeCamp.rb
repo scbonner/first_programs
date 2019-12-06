@@ -1,19 +1,9 @@
-phrase = "Giraffe Academy"
-puts phrase
+first = "Sadric"
+second = "C" 
+last = "Bonner"
 
-puts phrase.upcase()   # converts to all caps
-puts phrase.strip()
-puts phrase.length()
-puts phrase.include? ""
-puts phrase[4..8]
-puts phrase.index("d")
+puts ("What is your " + first)
+puts ("What is your " + second)
+puts ("What is your " + last)
 
-
-
-
-
-
-
-
-
-
+puts ("Is " + first + " your first name")

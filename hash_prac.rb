@@ -1,13 +1,22 @@
-names = Hash.new   # The first script creates a hash and adds two key-value pairs into the hash object.
-names[1] = "Judy"  # a hash object is created
-names[2] = "Billy"  # a hash object is created
-
-# {1=>"Judy", 2=>"Billy"}
-
-puts names  # print out Judy and Billy
 
 
+movies = { Gladitor: 2009, Up: 2014, Harriett: 2019 }
+
+puts movies[:Gladitor]
+puts movies[:Up]
+puts movies[:Harriett]
 
 
-# The puts method prints the string representation 
-# of the hash to the console. It is also the string literal of the hash.
+
+
+
+
+=begin
+Write a program that uses a hash to store 
+a list of movie titles with the year they 
+came out. Then use the puts command to make 
+your program print out the year of each movie 
+to the screen. The output for your program 
+should look something like this.
+=end
+

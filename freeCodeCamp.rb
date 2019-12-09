@@ -1,11 +1,29 @@
-first_name= "Meechie"
-second_initial = "C" 
-last_name = "Young"
-address = "Oaktop"
+#  basics of using strings
+#  method block of information to call
+
+phrase = "Giraffe Academy"
+puts phrase.upcase()
+puts phrase.downcase()
+puts phrase.strip()
+puts phrase.length()
+puts phrase.include? "School"
+puts phrase[0]
+puts phrase[0, 4]
+puts phrase[0..4]
+puts "programming".upcase()
+puts "programming".length
+puts "Where is the light in the moon".upcase
+puts "It is under the sun".downcase
+puts "it is under the sun".capitalize
+puts phrase.rstrip
+puts "hello".rstrip
+puts "programming".rstrip
+puts "this is the best day ever".upcase!
 
 
-puts ("What is your first name " + first_name)
-puts ("What is your second initial " + second_initial)
-puts ("What is your last name " + last_name)
-puts ("What is your address " + address)
+
+
+
+
+
 

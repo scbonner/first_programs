@@ -10,6 +10,7 @@ hash = {
 p hash.keys
 p hash.values
 
+# copied response below from irb run
 vocstartsoft:~/environment/first_programs (master) $ ruby hash_to_array.rb
 ["toyota", "honda", "ford", "nissan", "chevolet"]
 ["camry", "accord", "escape", "maxima", "impala"]

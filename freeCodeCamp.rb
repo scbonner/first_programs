@@ -18,7 +18,7 @@ puts "it is under the sun".capitalize
 puts phrase.rstrip
 puts "hello".rstrip
 puts "programming".rstrip
-puts "this is the best day ever".upcase!
+puts "this is the best day ever"
 
 
 

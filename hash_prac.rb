@@ -34,11 +34,28 @@ p movies[:Hustlers]
 p movies[:Just_Mercy]
 =end
 
-
-
+=begin
 dates = [2009, 2004, 2019, 2009, 2019, 2019, 2019]
-dates.sort
-p dates
+
+p dates[0]
+p dates[1]
+p dates[2]
+p dates[3]
+p dates[4]
+p dates[5]
+p dates[6]
+=end
+
+vocstartsoft:~/environment/first_programs (master) $ irb
+2.6.3 :001 > array = [2009, 2004, 2019, 2009, 2019, 2019, 2019]
+ => [2009, 2004, 2019, 2009, 2019, 2019, 2019] 
+2.6.3 :002 > array.sort
+ => [2004, 2009, 2009, 2019, 2019, 2019, 2019] 
+2.6.3 :003 > dates = [2009, 2004, 2019, 2009, 2019, 2019, 2019]
+ => [2009, 2004, 2019, 2009, 2019, 2019, 2019] 
+2.6.3 :004 > dates.sort
+ => [2004, 2009, 2009, 2019, 2019, 2019, 2019] 
+
 
 
 

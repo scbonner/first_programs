@@ -46,6 +46,8 @@ p dates[5]
 p dates[6]
 =end
 
+
+=begin
 vocstartsoft:~/environment/first_programs (master) $ irb
 2.6.3 :001 > array = [2009, 2004, 2019, 2009, 2019, 2019, 2019]
  => [2009, 2004, 2019, 2009, 2019, 2019, 2019] 
@@ -55,10 +57,8 @@ vocstartsoft:~/environment/first_programs (master) $ irb
  => [2009, 2004, 2019, 2009, 2019, 2019, 2019] 
 2.6.3 :004 > dates.sort
  => [2004, 2009, 2009, 2019, 2019, 2019, 2019] 
-
-
-
-
+ =end
+ 
 
 =begin
 Use the dates from the previous example and store 
@@ -69,7 +69,17 @@ Write a program that uses a hash to store a list
 of movie titles with the year they came out. 
 Then use the puts command to make your program 
 print out the year of each movie to the screen. 
-
 =end
 
 
+
+
+5 * 4 * 3 * 2 * 1
+6 * 5 * 4 * 3 * 2 * 1
+7 * 6 * 5 * 4 * 3 * 2 * 1
+8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+
+=begin
+Write a program that outputs the 
+factorial of the numbers 5, 6, 7, and 8.
+=end

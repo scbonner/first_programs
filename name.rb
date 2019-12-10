@@ -121,7 +121,7 @@ first = gets.chomp
 p "What is your last name?"
 last = gets.chomp
 
-p "#{first} " + "#{last}"
+p "Great, so your full name is " + "#{first} " + "#{last}"
 
 
 =begin

@@ -73,13 +73,39 @@ print out the year of each movie to the screen.
 
 
 
-
+=begin
 5 * 4 * 3 * 2 * 1
 6 * 5 * 4 * 3 * 2 * 1
 7 * 6 * 5 * 4 * 3 * 2 * 1
 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
 
+vocstartsoft:~/environment/first_programs (master) $ irb
+2.6.3 :001 > 5 * 4 * 3 * 2 * 1
+ => 120 
+2.6.3 :002 > 6 * 5 * 4 * 3 * 2 * 1
+ => 720 
+2.6.3 :003 > 7 * 6 * 5 * 4 * 3 * 2 * 1
+ => 5040 
+2.6.3 :004 > 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
+ => 40320 
+2.6.3 :005 > 
+=end
+
 =begin
 Write a program that outputs the 
 factorial of the numbers 5, 6, 7, and 8.
+=end
+
+
+puts 42.5 * 13.2
+puts 33.1 * 25.5
+puts 18.8 * 85.4
+
+
+
+
+=begin
+Write a program that calculates the squares
+of 3 float numbers of your choosing and 
+outputs the result to the screen.
 =end

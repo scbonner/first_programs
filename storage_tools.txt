@@ -1,0 +1,9 @@
+
+hash = {
+Toyota: Camry,
+Honda: Accord,
+Nissan: Altima,
+Ford: Escape,
+Chevolet: Impala
+}
+

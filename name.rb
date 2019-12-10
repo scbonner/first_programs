@@ -79,6 +79,7 @@ end
 puts name
 =end
 
+=begin
 name = 5
 
 10.times do |n|
@@ -87,6 +88,19 @@ end
 
 puts name
 
+vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
+SadricSadricSadricSadricSadricSadricSadricSadricSadricSadric
+vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
+Traceback (most recent call last):
+        3: from name.rb:84:in `<main>'
+        2: from name.rb:84:in `times'
+        1: from name.rb:85:in `block in <main>'
+name.rb:85:in `*': no implicit conversion of String into Integer (TypeError)
+vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
+SadricSadricSadricSadricSadricSadricSadricSadricSadricSadric
+vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
+Sadric Sadric Sadric Sadric Sadric Sadric Sadric Sadric Sadric Sadric 
+=end
 
 
 
@@ -101,4 +115,19 @@ method to do something repeatedly.
 
 
 
+p "What is your first name?"
+first = gets.chomp
+
+p "What is your last name?"
+last = gets.chomp
+
+p "#{first} " + "#{last}"
+
+
+=begin
+Modify name.rb again so that it first asks
+the user for their first name, saves it into
+a variable, and then does the same for the 
+last name. Then outputs their full name all at once.
+=end
 

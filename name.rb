@@ -61,14 +61,14 @@ vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
 80
 "In 40 years how old will you be?"
 120
-=end
 
-=begin
+
 Write a program called age.rb that asks a user 
 how old they are and then tells them how old 
 they will be in 10, 20, 30 and 40 years. 
 Below is the output for someone 20 years old.
 =end
+
 =begin
 name = 5
 
@@ -100,7 +100,6 @@ vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
 SadricSadricSadricSadricSadricSadricSadricSadricSadricSadric
 vocstartsoft:~/environment/first_programs (master) $ ruby name.rb
 Sadric Sadric Sadric Sadric Sadric Sadric Sadric Sadric Sadric Sadric 
-=end
 
 
 
@@ -113,7 +112,7 @@ method to do something repeatedly.
 =end
 
 
-
+=begin
 
 p "What is your first name?"
 first = gets.chomp
@@ -124,10 +123,27 @@ last = gets.chomp
 p "Great, so your full name is " + "#{first} " + "#{last}"
 
 
-=begin
 Modify name.rb again so that it first asks
 the user for their first name, saves it into
 a variable, and then does the same for the 
 last name. Then outputs their full name all at once.
 =end
 
+
+=begin
+x = 0
+3.times do
+  x += 1
+end
+puts x
+=end
+
+=begin
+y = 0
+x = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+=end

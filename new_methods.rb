@@ -1,15 +1,15 @@
 
-  a = 5
-  b = 7
-  
-def foo = ("a", "b")
- 
+def foo(a, b)
   if a == b 
     puts "Hooray"
-  
-  elsif
-    puts "Boo!"
-end
+  elsif a != b 
+    puts "Boo Hoo!"
+  end
+end 
+
+
+
+
 
 =begin
 Write a method called foo that takes two parameters a and b and 
@@ -22,7 +22,3 @@ from the first array that are divisible by 8
 The program should call each of the methods so that you know 
 that they work.  Store the program in github when you are done.
 =end
- 
-
-
-

@@ -1,8 +1,24 @@
-hash_one = {:this_one => "trains"}
-list hash_one
+=begin
 
-list_hash(this_one: => "trains"}
+def say(name)
+  name = "Henry"
+  name = gets.chomp.to_s
+end
+
+p say("Hello, #{name}")
+=end
 
 
-#write a function that takes a hash as a parameter and returns the value pointed to by the key :this_one
+class Cat
+  def initialize(meow)
+    @meow = meow
+  end
+end
 
+ p "I'm a cat, gimme food & pet me now!"
+
+=begin
+Create a Cat class
+Add a meow method to the Cat class that prints "I'm a cat, gimme food & pet me now!"
+Create a cat object & call the meow method 3 times
+=end

@@ -1,4 +1,4 @@
-
+=begin
 def foo(a, b)
   if a == b 
     puts "Hooray"
@@ -6,9 +6,21 @@ def foo(a, b)
     puts "Boo Hoo!"
   end
 end 
+=end
 
+def xyz(x)
+  arr.new = [x, x-1, x-2]
+  return array
+end
 
+p Array
 
+=begin
+  product = a * b
+  return product
+end
+puts multiply(2,3)   =>6
+=end
 
 
 =begin

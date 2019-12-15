@@ -45,15 +45,33 @@ class BigDog
   end
 end
 
+class NamedDog
+  
+  attr_accessor :name1
+  
+  def initialize( name )
+      @name = name.capitalize
+  end
+  def name1
+    puts "Fido"
+  end
+end
+      
+  
+
 object = BigDog.new("Woof Woof")
 object.noise
+object = NamedDog.new("Fido")
+object.name1
  
 
 =begin
-Extend dogs.rb from question 1. Define a class called BigDog 
-as a child class of Dog with one method, noise.
-The method should call the noise method in Dog 
-and should then print out "Woof Woof". In the 
-mainline of the program, create an instance of 
-BigDog and invoke the noise method.  
+Extend dogs.rb from question 2. Define a class 
+called NamedDog as a child class of Dog with a 
+initialize method that sets the "name" instance 
+variable. Create an attr_accessor for name. In 
+the mainline of the program, create a NamedDog 
+instance with name "Fido". Then print out what 
+is returned by the name method and invoke the 
+noise method.  
 =end

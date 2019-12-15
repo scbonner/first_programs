@@ -1,9 +1,24 @@
 
+3.times do 
+  # do prompting
 
-p "We are collecting information, so we need you to enter your age?"
-age = gets
+    p "We are collecting information, and will need you to enter your age?"
+age = gets.chomp
+    puts "Hooray!"
+end
+    puts "Do you feel old?"
 
-  puts "Hooray"
+ 
+=begin  
+  person = person + "x"
+elsif s.length / 2 >= 3
+  person = "alice"
+elsif 5.0 >= s.length - 3 and s.length - 5 >= 0 
+  person = "mark"
+else
+  person = "other"
+end
+=end
  
 =begin
 

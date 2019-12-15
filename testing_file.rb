@@ -1,46 +1,18 @@
-
+# prompting user three times for age
 3.times do 
-  # do prompting
-
+  # 
     p "We are collecting information, and will need you to enter your age?"
-age = gets.chomp
+    age = gets.chomp
     puts "Hooray!"
 end
+# if conditionals
     puts "Do you feel old?"
-
- 
-=begin  
-  person = person + "x"
-elsif s.length / 2 >= 3
-  person = "alice"
-elsif 5.0 >= s.length - 3 and s.length - 5 >= 0 
-  person = "mark"
-else
-  person = "other"
+    feelold = gets.chomp
+if feelold == "Yes"
+    puts "You are very wise!"
 end
-=end
- 
-=begin
-
-Write a program that asks the user to 
-enter their age. It then outputs "Hooray!" 
-for each year all in one line.
-
-It then asks the user if they feel old. 
-If the user says "yes" then tell the user that they are wise. 
-It they say "no" tell the user that they have much to learn. 
-If they say anything else tell them that only time will tell.
-=end
-
-=begin
-  
-if s.length > "2".to_i + 10
-  person = person + "x"
-elsif s.length / 2 >= 3
-  person = "alice"
-elsif 5.0 >= s.length - 3 and s.length - 5 >= 0 
-  person = "mark"
-else
-  person = "other"
-end
-=end
+    puts "Do you feel old?"
+    feelold = gets.chomp
+elsif feelold == "No"
+   puts "You have so so much to learn"
+   end 

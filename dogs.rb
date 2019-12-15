@@ -57,12 +57,14 @@ class NamedDog
   end
 end
       
-  
 
 object = BigDog.new("Woof Woof")
 object.noise
+
+
 object = NamedDog.new("Fido")
 object.name1
+
  
 
 =begin

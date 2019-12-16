@@ -1,14 +1,20 @@
-# prompting user three times for age
+# designing classes
 
 class Wood
     def hard_surface
         puts "Used to build infrastructures"
     end 
+    
+    def build_furniture
+        puts "Built to sit or lay in"
+    end
 end
 
 wood = Wood.new
 wood.hard_surface
 
+wood = Wood.new
+wood.build_furniture
         
 
 

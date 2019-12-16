@@ -10,7 +10,6 @@ class Sum1
 end 
     
 
-
 class Dog
     
   def initialize( name )
@@ -51,6 +50,9 @@ object = BigDog.new("Woof Woof")
 object.noise
 object = NamedDog.new("Fido")
 object.name1
+
+
+
 =begin
 
 Create a program sums.rb with two classes.  

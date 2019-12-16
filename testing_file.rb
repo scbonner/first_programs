@@ -1,6 +1,21 @@
 # prompting user three times for age
+
+class Wood
+    def hard_surface
+        puts "Used to build infrastructures"
+    end 
+end
+
+wood = Wood.new
+wood.hard_surface
+
+        
+
+
+=begin
 3.times do 
-  # 
+  # type three times
+    age = 0
     p "We are collecting information, and will need you to enter your age?"
     age = gets.chomp
     puts "Hooray!"
@@ -10,9 +25,16 @@ end
     feelold = gets.chomp
 if feelold == "Yes"
     puts "You are very wise!"
-end
     puts "Do you feel old?"
     feelold = gets.chomp
 elsif feelold == "No"
-   puts "You have so so much to learn"
-   end 
+    #feelold = gets.chomp
+    puts "You have so so much to learn"
+else
+   feelold ="Confused"
+   feelold = gets.chomp
+end
+=end
+ 
+   
+

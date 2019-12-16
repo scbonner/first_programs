@@ -8,19 +8,18 @@ def foo(a, b)
 end 
 =end
 
+=begin
 def xyz(x)
   arr.new = [x, x-1, x-2]
   return array
 end
 
 p Array
-
-=begin
-  product = a * b
-  return product
-end
-puts multiply(2,3)   =>6
 =end
+
+
+def oct {array = 4, 8, 16, 24, 32, 40, 48}
+  return 
 
 
 =begin

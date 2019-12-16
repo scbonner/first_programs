@@ -1,5 +1,6 @@
 # designing classes
 
+=begin
 class Wood
     def hard_surface
         puts "Used to build infrastructures"
@@ -15,6 +16,25 @@ wood.hard_surface
 
 wood = Wood.new
 wood.build_furniture
+=end
+
+class Cat
+    def meow
+        puts "I'm a cat, gimme food & pet me now!"
+    end
+end
+
+cat = Cat.new
+cat.meow
+3.times do
+    puts "meow"
+    
+end
+
+
+
+
+
         
 
 
